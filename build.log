@@ -1,0 +1,383 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+Warning: Python version 3.12 may have fewer packages available. If you experience problems, try switching to version 3.8.
+
+> Task :build-logic:convention:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :build-logic:convention:compileKotlin FROM-CACHE
+> Task :build-logic:convention:compileJava NO-SOURCE
+> Task :build-logic:convention:pluginDescriptors
+> Task :build-logic:convention:processResources
+> Task :build-logic:convention:classes
+> Task :build-logic:convention:jar
+> Task :core:domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:model:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:data:preBuild UP-TO-DATE
+> Task :core:data:preDebugBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :core:domain:processResources NO-SOURCE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:coding:preBuild UP-TO-DATE
+> Task :core:designsystem:preBuild UP-TO-DATE
+> Task :feature:coding:preDebugBuild UP-TO-DATE
+> Task :core:designsystem:preDebugBuild UP-TO-DATE
+> Task :core:data:writeDebugAarMetadata
+> Task :feature:flashcards:preBuild UP-TO-DATE
+> Task :feature:flashcards:preDebugBuild UP-TO-DATE
+> Task :core:designsystem:writeDebugAarMetadata
+> Task :feature:home:preBuild UP-TO-DATE
+> Task :feature:coding:writeDebugAarMetadata
+> Task :feature:home:preDebugBuild UP-TO-DATE
+> Task :feature:interview:preBuild UP-TO-DATE
+> Task :feature:interview:preDebugBuild UP-TO-DATE
+> Task :feature:flashcards:writeDebugAarMetadata
+> Task :feature:interview:writeDebugAarMetadata
+> Task :feature:learn:preBuild UP-TO-DATE
+> Task :feature:learn:preDebugBuild UP-TO-DATE
+> Task :feature:progress:preBuild UP-TO-DATE
+> Task :feature:home:writeDebugAarMetadata
+> Task :feature:quiz:preBuild UP-TO-DATE
+> Task :feature:progress:preDebugBuild UP-TO-DATE
+> Task :feature:quiz:preDebugBuild UP-TO-DATE
+> Task :feature:progress:writeDebugAarMetadata
+> Task :feature:settings:preBuild UP-TO-DATE
+> Task :feature:settings:preDebugBuild UP-TO-DATE
+> Task :feature:learn:writeDebugAarMetadata
+> Task :feature:quiz:writeDebugAarMetadata
+> Task :core:data:generateDebugResValues FROM-CACHE
+> Task :app:generateDebugResValues FROM-CACHE
+> Task :feature:settings:writeDebugAarMetadata
+> Task :core:data:generateDebugResources FROM-CACHE
+> Task :core:designsystem:generateDebugResValues FROM-CACHE
+> Task :core:data:packageDebugResources FROM-CACHE
+> Task :core:designsystem:generateDebugResources FROM-CACHE
+> Task :feature:coding:generateDebugResValues FROM-CACHE
+> Task :feature:coding:generateDebugResources FROM-CACHE
+> Task :core:designsystem:packageDebugResources FROM-CACHE
+> Task :feature:coding:packageDebugResources FROM-CACHE
+> Task :feature:home:generateDebugResValues FROM-CACHE
+> Task :feature:flashcards:generateDebugResValues FROM-CACHE
+> Task :feature:home:generateDebugResources FROM-CACHE
+> Task :feature:flashcards:generateDebugResources FROM-CACHE
+> Task :core:model:compileKotlin FROM-CACHE
+> Task :feature:home:packageDebugResources FROM-CACHE
+> Task :core:model:compileJava NO-SOURCE
+> Task :feature:flashcards:packageDebugResources FROM-CACHE
+> Task :core:model:processResources NO-SOURCE
+> Task :core:model:classes UP-TO-DATE
+> Task :feature:interview:generateDebugResValues FROM-CACHE
+> Task :feature:learn:generateDebugResValues FROM-CACHE
+> Task :feature:interview:generateDebugResources FROM-CACHE
+> Task :feature:learn:generateDebugResources FROM-CACHE
+> Task :feature:learn:packageDebugResources FROM-CACHE
+> Task :feature:interview:packageDebugResources FROM-CACHE
+> Task :feature:quiz:generateDebugResValues FROM-CACHE
+> Task :feature:progress:generateDebugResValues FROM-CACHE
+> Task :core:model:jar
+> Task :feature:quiz:generateDebugResources FROM-CACHE
+> Task :feature:progress:generateDebugResources FROM-CACHE
+> Task :feature:progress:packageDebugResources FROM-CACHE
+> Task :feature:settings:generateDebugResValues FROM-CACHE
+> Task :feature:quiz:packageDebugResources FROM-CACHE
+> Task :feature:settings:generateDebugResources FROM-CACHE
+> Task :core:data:extractDeepLinksDebug FROM-CACHE
+> Task :core:data:processDebugManifest FROM-CACHE
+> Task :feature:settings:packageDebugResources FROM-CACHE
+> Task :core:designsystem:extractDeepLinksDebug FROM-CACHE
+> Task :feature:coding:extractDeepLinksDebug FROM-CACHE
+> Task :core:designsystem:processDebugManifest FROM-CACHE
+> Task :feature:coding:processDebugManifest FROM-CACHE
+> Task :feature:flashcards:extractDeepLinksDebug FROM-CACHE
+> Task :feature:home:extractDeepLinksDebug FROM-CACHE
+> Task :feature:flashcards:processDebugManifest FROM-CACHE
+> Task :feature:home:processDebugManifest FROM-CACHE
+> Task :feature:interview:extractDeepLinksDebug FROM-CACHE
+> Task :feature:learn:extractDeepLinksDebug FROM-CACHE
+> Task :feature:interview:processDebugManifest FROM-CACHE
+> Task :feature:learn:processDebugManifest FROM-CACHE
+> Task :feature:progress:extractDeepLinksDebug FROM-CACHE
+> Task :feature:quiz:extractDeepLinksDebug FROM-CACHE
+> Task :feature:quiz:processDebugManifest FROM-CACHE
+> Task :feature:progress:processDebugManifest FROM-CACHE
+> Task :feature:settings:extractDeepLinksDebug FROM-CACHE
+> Task :core:data:compileDebugLibraryResources FROM-CACHE
+> Task :feature:settings:processDebugManifest FROM-CACHE
+> Task :core:designsystem:compileDebugLibraryResources FROM-CACHE
+> Task :core:domain:compileKotlin FROM-CACHE
+> Task :core:domain:compileJava NO-SOURCE
+> Task :core:domain:classes UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :core:domain:jar
+> Task :feature:coding:compileDebugLibraryResources FROM-CACHE
+> Task :core:data:parseDebugLocalResources FROM-CACHE
+> Task :feature:coding:parseDebugLocalResources FROM-CACHE
+> Task :core:designsystem:parseDebugLocalResources FROM-CACHE
+> Task :core:data:generateDebugRFile FROM-CACHE
+> Task :core:designsystem:generateDebugRFile FROM-CACHE
+> Task :feature:coding:generateDebugRFile FROM-CACHE
+> Task :feature:flashcards:compileDebugLibraryResources FROM-CACHE
+> Task :feature:home:compileDebugLibraryResources FROM-CACHE
+> Task :feature:interview:compileDebugLibraryResources FROM-CACHE
+> Task :feature:flashcards:parseDebugLocalResources FROM-CACHE
+> Task :feature:interview:parseDebugLocalResources FROM-CACHE
+> Task :feature:home:parseDebugLocalResources FROM-CACHE
+> Task :feature:flashcards:generateDebugRFile FROM-CACHE
+> Task :feature:interview:generateDebugRFile FROM-CACHE
+> Task :feature:learn:compileDebugLibraryResources FROM-CACHE
+> Task :feature:progress:compileDebugLibraryResources FROM-CACHE
+> Task :feature:home:generateDebugRFile FROM-CACHE
+> Task :app:mapDebugSourceSetPaths
+> Task :feature:quiz:compileDebugLibraryResources FROM-CACHE
+> Task :app:generateDebugResources FROM-CACHE
+> Task :feature:progress:parseDebugLocalResources FROM-CACHE
+> Task :feature:learn:parseDebugLocalResources FROM-CACHE
+> Task :feature:quiz:parseDebugLocalResources FROM-CACHE
+> Task :feature:quiz:generateDebugRFile FROM-CACHE
+> Task :feature:progress:generateDebugRFile FROM-CACHE
+> Task :feature:learn:generateDebugRFile FROM-CACHE
+> Task :core:data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:designsystem:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:settings:compileDebugLibraryResources FROM-CACHE
+> Task :feature:settings:parseDebugLocalResources FROM-CACHE
+> Task :feature:settings:generateDebugRFile FROM-CACHE
+> Task :feature:coding:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:mergeDebugResources FROM-CACHE
+> Task :feature:coding:javaPreCompileDebug FROM-CACHE
+> Task :feature:flashcards:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:packageDebugResources FROM-CACHE
+> Task :app:parseDebugLocalResources FROM-CACHE
+> Task :feature:flashcards:javaPreCompileDebug FROM-CACHE
+> Task :feature:home:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:progress:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug FROM-CACHE
+> Task :feature:progress:javaPreCompileDebug FROM-CACHE
+> Task :feature:home:javaPreCompileDebug FROM-CACHE
+> Task :feature:interview:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:interview:javaPreCompileDebug FROM-CACHE
+> Task :feature:learn:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:learn:javaPreCompileDebug FROM-CACHE
+> Task :feature:quiz:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:quiz:javaPreCompileDebug FROM-CACHE
+> Task :feature:settings:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:settings:javaPreCompileDebug FROM-CACHE
+> Task :app:processDebugMainManifest FROM-CACHE
+> Task :app:processDebugManifest FROM-CACHE
+> Task :app:processDebugManifestForPackage FROM-CACHE
+> Task :feature:coding:mergeDebugShaders
+> Task :feature:coding:compileDebugShaders NO-SOURCE
+> Task :feature:coding:generateDebugAssets UP-TO-DATE
+> Task :feature:coding:packageDebugAssets
+> Task :core:designsystem:compileDebugKotlin FROM-CACHE
+> Task :feature:flashcards:mergeDebugShaders
+> Task :core:designsystem:javaPreCompileDebug FROM-CACHE
+> Task :feature:flashcards:compileDebugShaders NO-SOURCE
+> Task :feature:flashcards:generateDebugAssets UP-TO-DATE
+> Task :core:designsystem:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature:flashcards:packageDebugAssets
+> Task :feature:home:mergeDebugShaders
+> Task :feature:home:compileDebugShaders NO-SOURCE
+> Task :feature:home:generateDebugAssets UP-TO-DATE
+> Task :feature:home:packageDebugAssets
+> Task :app:processDebugResources FROM-CACHE
+> Task :core:designsystem:bundleLibCompileToJarDebug
+> Task :core:designsystem:bundleLibRuntimeToJarDebug
+> Task :core:designsystem:mergeDebugShaders
+> Task :feature:interview:mergeDebugShaders
+> Task :core:designsystem:compileDebugShaders NO-SOURCE
+> Task :core:designsystem:generateDebugAssets UP-TO-DATE
+> Task :feature:interview:compileDebugShaders NO-SOURCE
+> Task :feature:interview:generateDebugAssets UP-TO-DATE
+> Task :feature:interview:packageDebugAssets
+> Task :core:designsystem:packageDebugAssets
+> Task :feature:learn:mergeDebugShaders
+> Task :feature:progress:mergeDebugShaders
+> Task :feature:learn:compileDebugShaders NO-SOURCE
+> Task :feature:learn:generateDebugAssets UP-TO-DATE
+> Task :feature:progress:compileDebugShaders NO-SOURCE
+> Task :feature:progress:generateDebugAssets UP-TO-DATE
+> Task :feature:learn:packageDebugAssets
+> Task :feature:progress:packageDebugAssets
+> Task :feature:quiz:mergeDebugShaders
+> Task :feature:settings:mergeDebugShaders
+> Task :feature:quiz:compileDebugShaders NO-SOURCE
+> Task :feature:quiz:generateDebugAssets UP-TO-DATE
+> Task :feature:settings:compileDebugShaders NO-SOURCE
+> Task :feature:settings:generateDebugAssets UP-TO-DATE
+> Task :feature:quiz:packageDebugAssets
+> Task :feature:settings:packageDebugAssets
+> Task :feature:coding:mergeDebugJniLibFolders
+> Task :feature:coding:mergeDebugNativeLibs NO-SOURCE
+> Task :core:designsystem:processDebugJavaRes
+> Task :feature:coding:copyDebugJniLibsProjectOnly
+> Task :core:designsystem:mergeDebugJniLibFolders
+> Task :core:designsystem:mergeDebugNativeLibs NO-SOURCE
+> Task :core:designsystem:bundleLibRuntimeToDirDebug
+> Task :core:designsystem:copyDebugJniLibsProjectOnly
+> Task :feature:flashcards:mergeDebugJniLibFolders
+> Task :feature:flashcards:mergeDebugNativeLibs NO-SOURCE
+> Task :feature:flashcards:copyDebugJniLibsProjectOnly
+> Task :feature:interview:mergeDebugJniLibFolders
+> Task :feature:interview:mergeDebugNativeLibs NO-SOURCE
+> Task :feature:home:mergeDebugJniLibFolders
+> Task :feature:interview:copyDebugJniLibsProjectOnly
+> Task :feature:home:mergeDebugNativeLibs NO-SOURCE
+> Task :feature:home:copyDebugJniLibsProjectOnly
+> Task :feature:learn:mergeDebugJniLibFolders
+> Task :feature:learn:mergeDebugNativeLibs NO-SOURCE
+> Task :feature:progress:mergeDebugJniLibFolders
+> Task :feature:learn:copyDebugJniLibsProjectOnly
+> Task :feature:progress:mergeDebugNativeLibs NO-SOURCE
+> Task :feature:progress:copyDebugJniLibsProjectOnly
+> Task :feature:quiz:mergeDebugJniLibFolders
+> Task :feature:settings:mergeDebugJniLibFolders
+> Task :feature:quiz:mergeDebugNativeLibs NO-SOURCE
+> Task :feature:settings:mergeDebugNativeLibs NO-SOURCE
+> Task :feature:quiz:copyDebugJniLibsProjectOnly
+> Task :feature:settings:copyDebugJniLibsProjectOnly
+> Task :app:extractDebugPythonBuildPackages
+> Task :app:generateDebugPythonRequirements
+> Task :app:mergeDebugPythonSources
+> Task :app:generateDebugPythonProxies
+> Task :app:javaPreCompileDebug FROM-CACHE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :core:data:javaPreCompileDebug FROM-CACHE
+> Task :core:data:mergeDebugShaders
+> Task :core:data:compileDebugShaders NO-SOURCE
+> Task :core:data:generateDebugAssets UP-TO-DATE
+> Task :core:data:packageDebugAssets
+> Task :core:data:mergeDebugJniLibFolders
+> Task :core:data:mergeDebugNativeLibs NO-SOURCE
+> Task :core:data:copyDebugJniLibsProjectOnly
+> Task :app:generateDebugPythonMiscAssets
+> Task :app:generateDebugPythonRequirementsAssets
+> Task :app:generateDebugPythonSourceAssets
+> Task :app:generateDebugPythonBuildAssets
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets FROM-CACHE
+> Task :app:desugarDebugFileDependencies FROM-CACHE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:generateDebugPythonJniLibs
+> Task :app:mergeExtDexDebug FROM-CACHE
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libchaquopy_java.so, libcrypto_chaquopy.so, libcrypto_python.so, libdatastore_shared_counter.so, libpython3.12.so, libsqlite3_chaquopy.so, libsqlite3_python.so, libssl_chaquopy.so, libssl_python.so.
+
+> Task :core:data:kspDebugKotlin
+w: Opt-in requirement marker androidx.compose.material3.ExperimentalMaterial3Api is unresolved. Please make sure it's present in the module dependencies
+w: Opt-in requirement marker androidx.compose.foundation.layout.ExperimentalLayoutApi is unresolved. Please make sure it's present in the module dependencies
+
+> Task :core:data:compileDebugKotlin
+w: Opt-in requirement marker androidx.compose.material3.ExperimentalMaterial3Api is unresolved. Please make sure it's present in the module dependencies
+w: Opt-in requirement marker androidx.compose.foundation.layout.ExperimentalLayoutApi is unresolved. Please make sure it's present in the module dependencies
+
+> Task :core:data:compileDebugJavaWithJavac
+> Task :core:data:processDebugJavaRes
+> Task :core:data:transformDebugClassesWithAsm
+> Task :core:data:bundleLibCompileToJarDebug
+> Task :core:data:bundleLibRuntimeToJarDebug
+> Task :core:data:bundleLibRuntimeToDirDebug
+> Task :feature:flashcards:kspDebugKotlin
+> Task :feature:coding:kspDebugKotlin
+> Task :feature:progress:kspDebugKotlin
+> Task :feature:interview:kspDebugKotlin
+> Task :feature:flashcards:compileDebugKotlin
+> Task :feature:coding:compileDebugKotlin
+> Task :feature:flashcards:compileDebugJavaWithJavac
+> Task :feature:flashcards:transformDebugClassesWithAsm FROM-CACHE
+> Task :feature:flashcards:bundleLibCompileToJarDebug
+> Task :feature:progress:compileDebugKotlin
+> Task :feature:coding:compileDebugJavaWithJavac
+> Task :feature:coding:transformDebugClassesWithAsm FROM-CACHE
+> Task :feature:coding:bundleLibCompileToJarDebug
+> Task :feature:progress:compileDebugJavaWithJavac
+> Task :feature:progress:transformDebugClassesWithAsm
+> Task :feature:progress:bundleLibCompileToJarDebug
+> Task :feature:home:kspDebugKotlin
+> Task :feature:learn:kspDebugKotlin
+> Task :feature:progress:bundleLibRuntimeToJarDebug
+> Task :feature:interview:compileDebugKotlin
+> Task :feature:quiz:kspDebugKotlin
+> Task :feature:interview:compileDebugJavaWithJavac
+> Task :feature:interview:transformDebugClassesWithAsm
+> Task :feature:interview:bundleLibCompileToJarDebug
+> Task :feature:home:compileDebugKotlin
+> Task :feature:home:compileDebugJavaWithJavac
+> Task :feature:settings:kspDebugKotlin
+> Task :feature:home:transformDebugClassesWithAsm
+> Task :feature:home:bundleLibCompileToJarDebug
+> Task :feature:home:bundleLibRuntimeToJarDebug
+> Task :feature:learn:compileDebugKotlin
+> Task :feature:learn:compileDebugJavaWithJavac
+> Task :feature:quiz:compileDebugKotlin
+> Task :feature:settings:compileDebugKotlin
+> Task :feature:learn:transformDebugClassesWithAsm
+> Task :feature:learn:bundleLibCompileToJarDebug
+> Task :feature:learn:bundleLibRuntimeToJarDebug
+> Task :feature:quiz:compileDebugJavaWithJavac
+> Task :feature:settings:compileDebugJavaWithJavac
+> Task :feature:quiz:transformDebugClassesWithAsm
+> Task :feature:quiz:bundleLibCompileToJarDebug
+> Task :feature:quiz:bundleLibRuntimeToJarDebug
+> Task :feature:settings:transformDebugClassesWithAsm
+> Task :feature:settings:bundleLibCompileToJarDebug
+> Task :feature:flashcards:bundleLibRuntimeToJarDebug
+> Task :feature:interview:bundleLibRuntimeToJarDebug
+> Task :feature:coding:bundleLibRuntimeToJarDebug
+> Task :feature:settings:bundleLibRuntimeToJarDebug
+> Task :feature:coding:processDebugJavaRes
+> Task :feature:flashcards:processDebugJavaRes
+> Task :feature:home:processDebugJavaRes
+> Task :feature:interview:processDebugJavaRes
+> Task :feature:learn:processDebugJavaRes
+> Task :feature:progress:processDebugJavaRes
+> Task :feature:quiz:processDebugJavaRes
+> Task :feature:settings:processDebugJavaRes
+> Task :feature:home:bundleLibRuntimeToDirDebug
+> Task :feature:learn:bundleLibRuntimeToDirDebug
+> Task :app:kspDebugKotlin
+> Task :feature:quiz:bundleLibRuntimeToDirDebug
+> Task :feature:flashcards:bundleLibRuntimeToDirDebug
+> Task :feature:interview:bundleLibRuntimeToDirDebug
+> Task :feature:coding:bundleLibRuntimeToDirDebug
+> Task :feature:progress:bundleLibRuntimeToDirDebug
+> Task :feature:settings:bundleLibRuntimeToDirDebug
+
+> Task :app:compileDebugKotlin
+w: file:///home/runner/work/interview-prep-app/interview-prep-app/app/src/main/kotlin/com/interviewprep/app/MainActivity.kt:124:47 'val Icons.Outlined.MenuBook: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.MenuBook.
+w: file:///home/runner/work/interview-prep-app/interview-prep-app/app/src/main/kotlin/com/interviewprep/app/MainActivity.kt:124:70 'val Icons.Filled.MenuBook: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.MenuBook.
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:hiltAggregateDepsDebug
+> Task :app:hiltJavaCompileDebug
+> Task :app:processDebugJavaRes
+> Task :app:transformDebugClassesWithAsm
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeLibDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/build-1792336099364.json
+[Incubating] Problems report is available at: file:///home/runner/work/interview-prep-app/interview-prep-app/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 15s
+274 actionable tasks: 164 executed, 110 from cache
