@@ -1,0 +1,5 @@
+<resources>
+    <color name="window_bg">#F8F9FC</color>
+    <color name="brand">#3B4FD8</color>
+    <color name="brand_light">#DFE3FF</color>
+</resources>

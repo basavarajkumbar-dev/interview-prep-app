@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- progress.db and settings are backed up; content.db is rebuilt from bundled content -->
+    <exclude domain="database" path="content.db" />
+</full-backup-content>

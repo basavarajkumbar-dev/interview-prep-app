@@ -1,0 +1,12 @@
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+content-pipeline/out/
+content-pipeline/curated/*.json
+__pycache__/
